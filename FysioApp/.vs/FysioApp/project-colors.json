@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "07777147-b0ec-4cd6-bf82-4c0c8354d2ac": {
+      "ProjectGuid": "07777147-b0ec-4cd6-bf82-4c0c8354d2ac",
+      "DisplayName": "FysioApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
