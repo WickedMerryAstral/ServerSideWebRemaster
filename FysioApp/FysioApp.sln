@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FysioApp", "FysioApp.csproj", "{72AF71CA-FF4B-4673-B097-70FE269BF18E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FysioApp", "FysioApp.csproj", "{72AF71CA-FF4B-4673-B097-70FE269BF18E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Domain", "..\Core.Domain\Core.Domain.csproj", "{F6616285-A7BA-4402-9B38-82A56A66E144}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.DomainServices", "..\Core.DomainServices\Core.DomainServices.csproj", "{2CE3CE09-6EC4-4F53-BB7A-5B33E067F0D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{72AF71CA-FF4B-4673-B097-70FE269BF18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72AF71CA-FF4B-4673-B097-70FE269BF18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72AF71CA-FF4B-4673-B097-70FE269BF18E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6616285-A7BA-4402-9B38-82A56A66E144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6616285-A7BA-4402-9B38-82A56A66E144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6616285-A7BA-4402-9B38-82A56A66E144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6616285-A7BA-4402-9B38-82A56A66E144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CE3CE09-6EC4-4F53-BB7A-5B33E067F0D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE3CE09-6EC4-4F53-BB7A-5B33E067F0D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE3CE09-6EC4-4F53-BB7A-5B33E067F0D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE3CE09-6EC4-4F53-BB7A-5B33E067F0D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
